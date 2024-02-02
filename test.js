@@ -13,20 +13,15 @@ function addtoLib(book){
     myLib.push(book)
 }
 
-function addBook(){
+function addEntry(){
     let titleValue=document.getElementById("booktitleinput")
-    title=titleValue.value;
-    console.log("book added")
-   
-}
-function addAuthor(){
     let authorValue=document.getElementById("authortitleinput")
+    title=titleValue.value;
     author=authorValue.value;
+    console.log("book added")
     console.log("author added")
 }
 
-function status(){
-    const element=document.getElementById("status");
-    element.innerHTML="Your entry has been recorded";
-
+function cardbanner(){
+    document.getElementById("p").innerHTML=(+"testing");
 }
