@@ -13,9 +13,8 @@ function addtoLib(book){
     myLib.push(book)
 }
 
-
-
-
 function addBook(){
+    let titleValue=document.getElementById("booktitleinput")
+    title=titleValue.value;
     console.log("book added")
 }
