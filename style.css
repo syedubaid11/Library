@@ -7,6 +7,13 @@
 }
 
 
+#addBook-container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
 #submit{
-    margin:30px;
+    margin:20px;
 }

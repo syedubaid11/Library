@@ -17,4 +17,16 @@ function addBook(){
     let titleValue=document.getElementById("booktitleinput")
     title=titleValue.value;
     console.log("book added")
+   
+}
+function addAuthor(){
+    let authorValue=document.getElementById("authortitleinput")
+    author=authorValue.value;
+    console.log("author added")
+}
+
+function status(){
+    const element=document.getElementById("status");
+    element.innerHTML="Your entry has been recorded";
+
 }

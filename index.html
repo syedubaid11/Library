@@ -7,10 +7,15 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Library</h1>
+    
     <div id="addBook-container">
+        <h1>Library</h1>
+        <label for="booktitleinput">Book title</label></br>
         <input type="text"id="booktitleinput">
-        <button id="submit" onclick="addBook()">Submit</button>
+        <label for="bookauthorinput">Author</label></br>
+        <input type="text" id="authortitleinput">
+        <button id="submit" onclick="addBook();addAuthor()">Submit</button>
+        <button id="status"onclick="status()">Incomplete</button>
     </div>
 
 
