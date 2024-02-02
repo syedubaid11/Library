@@ -1,5 +1,4 @@
-//empty array for storing values of object 
-const myLib=[]
+//empty variables
 let title=0;
 let author=0
 let pages=0
@@ -25,5 +24,5 @@ function addEntry(){
 }
 
 function cardbanner(){
-    document.getElementById("p").innerHTML=("Book Title:"+title+"<br />"+"Book Author:"+author+"<br />"+"Book pages:"+pages+"<br />");
+    document.getElementById("p").innerHTML=("Book Title: "+title+"<br />"+"Book Author: "+author+"<br />");
 }
