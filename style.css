@@ -37,4 +37,7 @@ body{
     display:flex;
     margin-top:60px;
     flex-direction: column;
+    height:70px;
+    width:auto;
+    background-color: white;
 }
