@@ -38,6 +38,20 @@ body{
     margin-top:60px;
     flex-direction: column;
     height:70px;
-    width:auto;
+    width:100%;
     background-color: white;
+    border-radius:25px;
+    
+}
+
+#booktitleinput{
+    border-radius:5px;
+    font-size:15px;
+    border:2px;
+}
+
+#authortitleinput{
+    border-radius:5px;
+    font-size:15px;
+    border:2px; 
 }
