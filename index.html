@@ -7,30 +7,33 @@
     <title>Document</title>     
 </head>
 <body>
-<h1>Library</h1>
+<div id="heading">Library</div>
 
-<button id="add" onclick="addEntry();showDialog()">Add Book</button> 
+<div id="container">
+    <button id="add" onclick="addEntry();showDialog()">Add Book</button> 
+</div>
 
+<div id="addBook-container">
 
+    <dialog id="thisDialog">
 
-    <div id="addBook-container">
-        <dialog id="thisDialog">
-        <div id="layout-box">
-        <label for="booktitleinput">Book title</label></br>
-        <input type="text"id="booktitleinput">
-        <label for="bookauthorinput">Author</label></br>
-        <input type="text" id="authortitleinput">
-        <button id="Done"onclick="done()">Done</button>
-        </dialog>
-        </div>
+    <div id="layout-box">
+    <label for="booktitleinput">Book title</label></br>
+    <input type="text"id="booktitleinput">
+    <label for="bookauthorinput">Author</label></br>
+    <input type="text" id="authortitleinput">
+    <button id="Done"onclick="done()">Done</button>
 
-    
-    </div>
-    <div id="Books-Collection">
-        <p>Recorded Books </p>
+    </dialog>
     </div>
 
+</div>
 
-    <script src="test.js"></script>
+<div id="Books-Collection">
+    <p>Recorded Books </p>
+</div>
+
+
+<script src="test.js"></script>
 </body>
 </html>

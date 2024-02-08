@@ -2,7 +2,10 @@ body{
     font-family: sans-serif;
     background-color: bisque;
 }
-
+#heading{
+    font-size: 70px;
+    font-weight: bold;
+}
 #new-book-btn{
     display:block;
     margin:0px;
@@ -11,6 +14,18 @@ body{
     background-color: blue;
 }
 
+#add{
+    font-size: 15px;
+    border-radius: 5px;
+    background-color: white;
+    outline:none;
+    border:1px solid;
+
+}
+#container{
+    display:flex;
+    justify-content: center;
+}
 
 #addBook-container{
     display:flex;
