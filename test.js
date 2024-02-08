@@ -26,3 +26,7 @@ function addEntry(){
 function cardbanner(){
     document.getElementById("Books-Collection").innerHTML=("Book Title: "+title+"<br />"+"Book Author: "+author+"<br />");
 }
+
+function showDialog(){
+    dialog.show();
+}
