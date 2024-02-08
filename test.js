@@ -27,6 +27,13 @@ function cardbanner(){
     document.getElementById("Books-Collection").innerHTML=("Book Title: "+title+"<br />"+"Book Author: "+author+"<br />");
 }
 
+
+const dialog=document.getElementById("thisDialog")
 function showDialog(){
     dialog.show();
+}
+
+const dialogclose=document.getElementById("thisDialog")
+function done(){
+    dialogclose.close();
 }

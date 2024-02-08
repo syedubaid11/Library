@@ -4,19 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>Document</title>     
 </head>
 <body>
-    
+<h1>Library</h1>
+
+<button id="add" onclick="addEntry();showDialog()">Add Book</button> 
+
+
+
     <div id="addBook-container">
-        <h1>Library</h1>
+        <dialog id="thisDialog">
         <div id="layout-box">
         <label for="booktitleinput">Book title</label></br>
         <input type="text"id="booktitleinput">
         <label for="bookauthorinput">Author</label></br>
         <input type="text" id="authortitleinput">
-        <button id="submit" onclick="addEntry();showDialog()">Submit</button>
-        <p id="p"></p>
+        <button id="Done"onclick="done()">Done</button>
+        </dialog>
         </div>
 
     
@@ -25,8 +30,6 @@
         <p>Recorded Books </p>
     </div>
 
-    
-    
 
     <script src="test.js"></script>
 </body>
