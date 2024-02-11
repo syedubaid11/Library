@@ -9,11 +9,12 @@ body{
     font-size: 70px;
     font-weight: bold;
     display:flex;
-    background-color: white;
+    background-color:burlywood;
     height:100%;
     width: 100%;
     padding-bottom: 40px;
     padding-top: 10px;
+    border-bottom: 4px solid black;
 }
 #new-book-btn{
     display:block;
@@ -29,6 +30,10 @@ body{
     background-color: white;
     outline:none;
     border:1px solid;
+    margin-top:30px;
+}
+#add:hover{
+    font-size: 17px;
 
 }
 #container{
@@ -60,7 +65,7 @@ body{
 
 #Books-Collection{
     display:flex;
-    margin-top:60px;
+    margin-top:80px;
     flex-direction: column;
     height:70px;
     width:100%;
